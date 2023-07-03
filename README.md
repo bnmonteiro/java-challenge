@@ -2,7 +2,7 @@
 Code of java challege for apple industries position
 
 # Challenge 1
-curl --location 'localhost:8080/reverse' \
+curl --location 'localhost:8080/reverse-sentence' \
 --header 'Content-Type: text/plain' \
 --data 'sentence to reverse words'
 
@@ -10,11 +10,11 @@ curl --location 'localhost:8080/reverse' \
 curl --location 'localhost:8080/prize-draw' \
 --header 'Content-Type: application/json' \
 --data '{
-    "orderedPackage":"print"
+    "orderedPackage":"prints"
 }'
 
 # Challenge 3
-curl --location 'localhost:8080/taxOwed' \
+curl --location 'localhost:8080/tax-owed' \
 --header 'Content-Type: application/json' \
 --data '{
     "boothId": 1,

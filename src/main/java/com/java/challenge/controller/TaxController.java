@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.text.NumberFormat;
 
 @RestController
-@RequestMapping("/taxOwed")
+@RequestMapping("/tax-owed")
 public class TaxController {
     private final TaxCalcService taxService;
 

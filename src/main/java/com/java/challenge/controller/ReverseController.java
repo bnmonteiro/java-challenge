@@ -12,7 +12,7 @@ public class ReverseController {
     @Autowired
     private ReverseService service;
 
-    @PostMapping("/reverse")
+    @PostMapping("/reverse-sentence")
     public String reverseWords(@RequestBody String sentence) {
 
         return service.reverseWordsInSentence(sentence);
